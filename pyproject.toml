@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cran"
+version = "0.1.0"
+description = ""
+authors = ["leins275 <leins275@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+packaging = "^23.1"
+lxml = "^4.9.3"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
